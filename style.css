@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.ping {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.ping-content {
+  padding: 3em 0 1em 0;
+}
+
+.ping-lunching {
+  color: hsl(0, 0%, 59%);
+}
+
+.ping-soon {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
+}
+
+.ping-notify {
+  font-weight: 300;
+}
+
+.ping-form {
+  margin: 2em 0 4em 0;
+}
+
+.ping-email {
+  outline: none;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 12px;
+  padding-left: 2em;
+  width: 350px;
+  border-radius: 20px;
+  border: 1px solid hsl(223, 100%, 88%);
+  margin-right: 1em;
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.ping-check {
+  position: absolute;
+  padding-top: 3.5em;
+  font-size: 13px;
+  color: red;
+  padding-left: 1em;
+}
+
+.ping-btn {
+  padding: 12px 5em;
+  font-size: 13px;
+  border-radius: 20px;
+}
+
+.ping-btn:hover {
+  opacity: 80%;
+}
+
+.ping-b-img {
+  width: 600px;
+}
+
+.ping-bottom {
+  margin: 4em 0 2em 0;
+}
+
+.icons {
+  gap: 1em;
+  display: flex;
+  justify-content: center;
+  transition: all 800ms;
+}
+
+.f-icon {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 100%;
+  padding: 6px 9px;
+  transition: all 800ms;
+}
+
+.f-icon:hover {
+  background-color: hsl(224, 93%, 58%);
+  border: 1px solid hsl(224, 93%, 58%);
+  color: #fff;
+}
+
+.twitter-icon {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 100%;
+  padding: 6px 6px;
+  transition: all 800ms;
+}
+
+.twitter-icon:hover {
+  background-color: hsl(224, 93%, 58%);
+  border: 1px solid hsl(224, 93%, 58%);
+  color: #fff;
+}
+
+.insta-icon {
+  border: 1px solid hsl(0, 0%, 59%);
+  border-radius: 100%;
+  padding: 6px 7px;
+  transition: all 800ms;
+}
+
+.insta-icon:hover {
+  background-color: hsl(224, 93%, 58%);
+  border: 1px solid hsl(224, 93%, 58%);
+  color: #fff;
+}
+
+.ping-copy {
+  font-size: 13px;
+  color: hsl(0, 0%, 59%);
+  padding-top: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .ping {
+    flex-direction: column;
+  }
+
+  .ping-b-img {
+    width: 80%;
+  }
+
+  .ping-email {
+    display: block;
+    width: 95%;
+  }
+
+  .ping-btn {
+    margin-top: 3em;
+    width: 95%;
+  }
+}
